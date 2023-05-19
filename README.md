@@ -35,8 +35,8 @@ from groundingdino.util import box_ops
 from groundingdino.util.slconfig import SLConfig
 from groundingdino.util.utils import clean_state_dict, get_phrases_from_posmap
 
-# segment anything
-from segment_anything import build_sam, SamPredictor, SamAutomaticMaskGenerator
+# segment onething
+from segment_onething import build_iam, iamPredictor, iamAutomaticMaskGenerator
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
